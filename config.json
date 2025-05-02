@@ -1,0 +1,10 @@
+{
+    "forcepremium": false,
+    "enableHmr": true,
+    "premiumId": "1278541081449070622",
+    "process":{
+        "errorwebhook": true,
+        "infowebhook": true,
+        "botmode": "prod"
+    }
+}
