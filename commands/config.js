@@ -293,7 +293,7 @@ class PingCommand extends Subcommand {
    * 
    * @param {ChatInputCommandInteraction} interaction 
    */
-  async chatInputAttachButton(interaction) {
+  async chatInputAttachList(interaction) {
     const db = await ServerSettings.findById(interaction.guild.id).cacheQuery();
 
     const entries = interaction.options.getString('names').slice().trim().split(',')
